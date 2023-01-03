@@ -15,17 +15,13 @@ namespace KataTDD.service
             throw new NotImplementedException();
         }
 
-        private object  InstrumentFactory(InstrumentType instumentType)
+        private object FakeInstrumentDbFactory(InstrumentType instrumentType) => instrumentType switch
         {
+            InstrumentType.CORDE => new Piano(),
+            InstrumentType.PERCUSSION => new Tambour(),
+            InstrumentType.VENT => new Flute(),
+            _ => throw new Exception("Bad instrument"),
+        };
 
-            return instumentType switch
-            {
-                InstrumentType.CORDE => new Piano(),
-                InstrumentType.PERCUSSION => new Tambour(),
-                InstrumentType.VENT => new Flute(),
-                _ => throw new Exception("Bad instrument"),
-            };
-        }
-        
     }
 }
