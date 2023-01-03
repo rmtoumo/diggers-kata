@@ -1,14 +1,12 @@
 ﻿using System;
 
-namespace CSharpAlgo
+namespace KataTDD
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-           TestAlgo.TestAnagram();
-
-           Console.ReadKey();
+            Console.WriteLine("Hello World!");
         }
     }
 }

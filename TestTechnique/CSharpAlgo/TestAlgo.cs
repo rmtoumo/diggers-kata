@@ -7,70 +7,39 @@ namespace CSharpAlgo
 {
     public static class TestAlgo
     {
-        public static void Test1()
+
+        // Faire un programme qui reconnait tous les anagrames et qui sort les résultats au format:
+        // anagrame 1: bao, aob
+        // anagrame 2: meteor, remote
+        // anagrame 3: thing, night
+        // anagrame 4: marie, aimer
+        public static void TestAnagram()
         {
-            //var words = new string[] { "bao", "abab", "aob", "meteor", "remote", "thing", "night", "marie", "aimer"};
-
-            //var results  = new Dictionary;
-
-
-            //var tt = words.Select(w => w.ToCharArray()).ToList();
-
-
-            //foreach (var item in words)
-            //{
-            //    if(results.Any(i => i.Length.Equals(item.Length)))
-            //    {
-            //       foreach(var r in results)
-            //        {
-            //            var rLetters = r.ToCharArray();
-            //            if(item.All(i => rLetters.Contains(i)))
-            //            {
-
-            //            }
-            //        }
-
-
-            //    }
-            //}
-
+            var words = new string[] { "bao", "aob", "meteor", "remote", "thing", "night", "marie", "aimer" };
         }
-        
-        public static void Test2()
+
+
+        // Faire un programme qui reconnait les palyndromes et qui sort les résultats au format:
+        // madam est un palyndrome
+        // tenet est un palyndrome
+        // bob est un palyndrome
+        public static void TestPalyndrome()
         {
             var words = new string[] {"madam", "test", "tenet", "okapi", "bob"};
-
-
-            foreach (var word in words)
-            {
-                var pal = string.Empty;
-                var wordChars = word.ToCharArray();
-                for(var i = wordChars.Length - 1; i  >= 0 ; i --)
-                {
-                    pal += wordChars[i];
-                    if (pal.Equals(word))
-                    {
-                        Console.WriteLine($"{word} est un palyndrome");
-                    } 
-                }
-            }
         }
-        
-        public static void Test3()
+
+        // Faire un programme qui compte le nombre de lettre identiques dans une phrase
+        // Exemple de résultat: La lettre e est présente 4 fois
+        public static void TestLetterWeight()
         {
             var message = "Welcome to citeo my friend";
-            var t = message.ToCharArray();
-            var tt = t.GroupBy(c => c);
-            foreach (var r  in tt)
-            {
-                Console.WriteLine($"Lettre : {r.Key.ToString()} apparait: {r.Count()}");
-            }
         }
-        
-        public static void Test4()
+
+
+        // Faire un programme qui pour un tableau de nombre, reconnait les nombres pairs et les nombres impairs
+        public static void TestOddPair()
         {
-            var input = new [] {1, 2, 7, 8, 11, 7};
-            var sum = 20;
+            var input = new [] { 2, 7, 45, 11, 88};
         }
 
     }

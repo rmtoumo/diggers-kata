@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpAlgo", "CSharpAlgo\CSharpAlgo.csproj", "{3EB67798-5023-4D0A-9E02-0BD819FF9FE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpAlgo", "CSharpAlgo\CSharpAlgo.csproj", "{3EB67798-5023-4D0A-9E02-0BD819FF9FE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApi", "TestApi\TestApi.csproj", "{198494FB-A10A-4755-B74C-437157941AF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestApi", "TestApi\TestApi.csproj", "{198494FB-A10A-4755-B74C-437157941AF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KataTDD", "KataTDD\KataTDD.csproj", "{EA6298ED-CDA6-432B-B641-9D4DE6A3A02B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{198494FB-A10A-4755-B74C-437157941AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{198494FB-A10A-4755-B74C-437157941AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{198494FB-A10A-4755-B74C-437157941AF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA6298ED-CDA6-432B-B641-9D4DE6A3A02B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA6298ED-CDA6-432B-B641-9D4DE6A3A02B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA6298ED-CDA6-432B-B641-9D4DE6A3A02B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA6298ED-CDA6-432B-B641-9D4DE6A3A02B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
