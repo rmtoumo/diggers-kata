@@ -4,7 +4,7 @@ using Xunit;
 namespace KataTDD
 {
     /* Dans la classe de test ci dessous, écrire en TDD, un test qui,
-    Vérifie que lorsqu'on appel la méthode PlayInstrument du service _instrumentService,  le résultat de la méthode Play de l'instrument,
+    vérifie que lorsqu'on appel la méthode PlayInstrument du service _instrumentService,  le résultat de la méthode Play de l'instrument,
     contient bien la valeur expectedContainedValue.
 
     Tip : Cast int to Enum: YourEnum foo = (YourEnum)yourInt; */

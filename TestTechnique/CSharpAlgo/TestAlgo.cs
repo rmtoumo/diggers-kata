@@ -28,15 +28,16 @@ namespace CSharpAlgo
             var words = new string[] {"madam", "test", "tenet", "okapi", "bob"};
         }
 
-        // Faire un programme qui compte le nombre de lettre identiques dans une phrase
+        // Faire un programme qui compte le nombre d'occurence de chaque lettre dans une phrase
         // Exemple de résultat: La lettre e est présente 4 fois
-        public static void TestLetterWeight()
+        public static void TestLetterOccurences()
         {
             var message = "Welcome to citeo my friend";
         }
 
 
         // Faire un programme qui pour un tableau de nombre, reconnait les nombres pairs et les nombres impairs
+        // Si possible utilisé une Func pour faire la vérification
         public static void TestOddPair()
         {
             var input = new [] { 2, 7, 45, 11, 88};
