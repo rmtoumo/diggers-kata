@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpAlgo", "CSharpAlgo\CS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestApi", "TestApi\TestApi.csproj", "{198494FB-A10A-4755-B74C-437157941AF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KataTDD", "KataTDD\KataTDD.csproj", "{EA6298ED-CDA6-432B-B641-9D4DE6A3A02B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDKata", "TDDKata\TDDKata.csproj", "{42B45EC4-0719-4B56-AD54-9ADF3919FFCB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{198494FB-A10A-4755-B74C-437157941AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{198494FB-A10A-4755-B74C-437157941AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{198494FB-A10A-4755-B74C-437157941AF9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EA6298ED-CDA6-432B-B641-9D4DE6A3A02B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EA6298ED-CDA6-432B-B641-9D4DE6A3A02B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EA6298ED-CDA6-432B-B641-9D4DE6A3A02B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EA6298ED-CDA6-432B-B641-9D4DE6A3A02B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42B45EC4-0719-4B56-AD54-9ADF3919FFCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42B45EC4-0719-4B56-AD54-9ADF3919FFCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42B45EC4-0719-4B56-AD54-9ADF3919FFCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42B45EC4-0719-4B56-AD54-9ADF3919FFCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -7,18 +7,6 @@ namespace CSharpAlgo
 {
     public static class TestAlgo
     {
-
-        // Faire un programme qui reconnait tous les anagrames et qui sort les résultats au format:
-        // anagrame 1: bao, aob
-        // anagrame 2: meteor, remote
-        // anagrame 3: thing, night
-        // anagrame 4: marie, aimer
-        public static void TestAnagram()
-        {
-            var words = new string[] { "bao", "aob", "meteor", "remote", "thing", "night", "marie", "aimer" };
-        }
-
-
         // Faire un programme qui reconnait les palyndromes et qui sort les résultats au format:
         // madam est un palyndrome
         // tenet est un palyndrome
