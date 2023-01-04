@@ -6,7 +6,7 @@ namespace CSharpAlgo
     {
         static void Main(string[] args)
         {
-           TestAlgo.TestAnagram();
+           TestAlgo.TestPalyndrome();
 
            Console.ReadKey();
         }
