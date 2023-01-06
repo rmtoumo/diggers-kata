@@ -17,7 +17,7 @@ namespace CSharpAlgo
         }
 
         // Faire un programme qui compte le nombre d'occurence de chaque lettre dans une phrase
-        // Exemple de résultat: La lettre e est présente 4 fois
+        // Exemple de résultat: La lettre e est présente 3 fois
         public static void TestLetterOccurences()
         {
             var message = "Welcome to diggers my friend";

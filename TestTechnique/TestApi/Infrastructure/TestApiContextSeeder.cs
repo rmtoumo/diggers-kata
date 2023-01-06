@@ -25,7 +25,7 @@ namespace TestApi.Infrastructure
             {
                 Firstname = $"Firstname - {x}",
                 Lastname = $"Lastname-{x:001}",
-                Email = $"test{x}@citeo.com",
+                Email = $"test{x}@diggers.com",
                 AccountNumber = $"Account{x}"
             });
             
