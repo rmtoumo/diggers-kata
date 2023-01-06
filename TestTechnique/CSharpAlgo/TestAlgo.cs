@@ -20,7 +20,7 @@ namespace CSharpAlgo
         // Exemple de résultat: La lettre e est présente 4 fois
         public static void TestLetterOccurences()
         {
-            var message = "Welcome to citeo my friend";
+            var message = "Welcome to diggers my friend";
         }
 
 
